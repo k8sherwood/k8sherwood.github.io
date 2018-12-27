@@ -1,0 +1,174 @@
+/* general properties*/
+
+html, body {
+    background-color: #f0f4f6;
+    color: #000033;
+    font-family: "helvetica neue", helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link{
+    color: #ed6a5a;
+}
+
+a:visited{
+    color: #97443a;
+}
+
+h1 {
+    font-size: 1.1em;
+    font-weight: bold;   
+}
+
+/* responsive container styling*/
+
+#container {
+    background-color: #ffffff;  
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (min-width:800px) {
+    #container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    #container {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #container {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/* header styling*/
+
+
+#header {
+    background-color: #000033;
+    color: #edf2f4;
+    padding: 20px;
+} 
+
+#photo-container {
+    display: none;
+    margin: auto;
+}
+
+@media screen and (min-width:500px) {
+    #photo-container {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+#title-container { 
+    display: inline-block;
+    height: 125px;
+    vertical-align: bottom;
+    }
+
+#title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#subtitle {
+    font-size: 1.1em;
+}
+
+/* navigation menu linkbuttons */
+
+#menu {
+    text-align: center;
+}
+
+.linkbutton{
+    background-color: #edf2f4;
+    border: 1px solid #ed6a5a;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+@media screen and (min-width:500px) {
+    .linkbutton{
+        display: inline-block;
+    }
+}
+
+.linkbutton-active{
+    background-color: #ed6a5a;
+    border: 1px solid #ed6a5a;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+@media screen and (min-width:500px) { 
+    .linkbutton-active {
+        display: inline-block;
+    }
+}
+
+.linkbutton a:link{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ed6a5a;
+}
+
+.linkbutton a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ed6a5a;
+}
+
+.linkbutton a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ed6a5a;
+}
+
+.linkbutton-active a:link{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #edf2f4;
+}
+
+.linkbutton-active a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #edf2f4;
+}
+
+.linkbutton-active a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #edf2f4;
+}
+
+/* styling for body text elements*/
+
+#bodytext{
+    font-size: 1em;
+    padding: 0px 10px 10px 10px;
+}
+
+
